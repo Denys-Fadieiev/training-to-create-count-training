@@ -5,7 +5,6 @@ const { LANGUAGE } = CONSTANTS;
 
 const initialState = LANGUAGE.UA_UA.VALUE;
 
-
 const languageSlice = createSlice({
   name: 'lang',
   initialState,
